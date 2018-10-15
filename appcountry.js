@@ -1,4 +1,4 @@
-var file_reader = require("./json-file-reader"); //require "json-file-reader" module that I've created in another file
+var file_reader = require("./json-file-reader.js"); //require "json-file-reader" module that I've created in another file
 
 file_reader.fileReader('./countries.json',  function(parseData){ // fileReader content passed onto (parseData) parameter
 
