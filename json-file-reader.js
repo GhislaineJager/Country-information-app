@@ -1,7 +1,7 @@
-function fileReader(filename, callback){ //
+function fileReader(filename, callback){
 	var fs = require('fs');// fs module from node
     fs.readFile(filename, 'utf-8', function(err, data){ // returned value passed to 'data' parameter
-    	// readFile job is to read file, after reading will have content, this content is the returned value
+    	// readFile actually reads the file, after reading there the reader will provide content. This content is the returned value
     	if(err){
 
         console.log("Error");
